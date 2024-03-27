@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ff6a23;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  
+}
+
+.btn-container button{
+  margin: 0 8px;
+}
+
+
+.btn-item {
+  margin-left: 15px;
+}
+
+.section-center {
+  padding: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 5px solid #555; /* Bir öğenin etrafında bir çerçeve oluşturur */
+  padding: 10px; /* İçerikler ve çerçeve arasında biraz boşluk oluşturur */
+  border-radius: 10px; /* Köşeleri yuvarlak yapar */
+  background: white; /* Arka planı beyaz yapar */
+}
+
+.menu-item-image {
+  width: 200px;
+  margin-right: 20px; /* Resim ile metin arasında boşluk */
+  object-fit: cover; /* Resmi kutuya sığdır */
+  border-radius: 10px; /* Resim köşelerini yuvarlak yap */
+}
+
+.menu-item h4,
+.menu-item p {
+  margin: 0; /* Metin için margin sıfırlama */
+}
